@@ -1,0 +1,1502 @@
+                                          /* MENU */
+                                          * {
+                                              padding: 0;
+                                              margin: 0;
+                                              box-sizing: border-box;
+                                          }
+
+                                          .container {
+                                              margin: auto;
+                                              max-width: 1400px;
+                                              width: 80%;
+                                          }
+
+                                          header {
+                                              display: flex;
+                                              background-color: #232536;
+                                              width: auto;
+                                              height: 80px;
+                                          }
+
+                                          header img {
+                                              background-color: #232536;
+                                              margin-left: 83px;
+                                              margin-bottom: 26.65px;
+                                              margin-top: 25px;
+                                          }
+
+                                          .menu {
+                                              list-style: none;
+                                              display: flex;
+                                              background-color: #232536;
+                                              margin-left: 700px;
+
+
+                                          }
+
+                                          .menu li {
+                                              display: block;
+
+                                          }
+
+                                          .menu a {
+                                              display: block;
+                                              text-decoration: none;
+                                              color: white;
+                                              font-weight: bold;
+                                              margin-right: 24px;
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+                                              margin-right: 24px;
+                                              margin-top: 24px;
+                                              margin-bottom: 24px;
+                                          }
+
+                                          .menu a:hover {
+                                              background-color: #ddd;
+                                          }
+
+                                          .btn a {
+                                              display: block;
+                                              text-decoration: none;
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 18px;
+                                              line-height: 24px;
+                                              text-align: center;
+                                              color: #232536;
+                                              width: 179px;
+                                              height: 56px;
+                                              background-color: white;
+                                              padding-top: 16px;
+                                              padding-bottom: 16px;
+                                              padding-left: 48px;
+                                              padding-right: 48px;
+                                              margin-top: 12px;
+                                              margin-bottom: 12px;
+                                              margin-left: 32px;
+                                          }
+
+                                          /* SECTION1 */
+                                          .section1 {
+                                              background-image: url(images/Home\ Hero.png);
+                                              background-repeat: no-repeat;
+                                              background-size: cover;
+                                              height: 720px;
+                                          }
+
+                                          .p1 {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 500;
+                                              font-size: 16px;
+                                              line-height: 20px;
+                                              letter-spacing: 3px;
+                                              text-transform: uppercase;
+                                              color: #FFFFFF;
+                                              padding-top: 116px;
+                                              padding-left: 81px;
+                                          }
+
+                                          .p2 {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 900;
+                                              font-size: 16px;
+                                              line-height: 20px;
+                                              letter-spacing: 3px;
+                                              text-transform: uppercase;
+                                              color: #FFFFFF;
+
+                                          }
+
+                                          .p3 {
+                                              width: 803px;
+                                              height: 128px;
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 56px;
+                                              line-height: 64px;
+                                              letter-spacing: -2px;
+                                              color: #FFFFFF;
+                                              padding-left: 81px;
+                                              padding-top: 24px;
+                                          }
+
+                                          .p4 {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+                                              padding-left: 81px;
+                                              color: #FFFFFF;
+                                              padding-top: 35px;
+                                          }
+
+                                          .p5 {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+                                              color: #FFD050;
+                                          }
+
+                                          .p6 {
+                                              width: 599px;
+                                              height: 56px;
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+                                              color: #FFFFFF;
+                                              padding-left: 81px;
+                                              padding-top: 16px;
+                                          }
+
+                                          .btn2 {
+                                              display: inline-block;
+                                              background-color: #FFD050;
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 18px;
+                                              color: black;
+                                              text-decoration: none;
+                                              padding-top: 16px;
+                                              padding-bottom: 16px;
+                                              padding-left: 48px;
+                                              padding-right: 48px;
+                                              margin-left: 81px;
+                                              margin-top: 48px;
+                                          }
+
+                                          /* SECTION2 */
+                                          .section2 {
+                                              display: flex;
+                                          }
+
+                                          .p7 {
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 36px;
+                                              line-height: 48px;
+                                              letter-spacing: -2px;
+                                              color: #232536;
+                                              margin-top: 140px;
+                                              margin-left: 80px;
+                                          }
+
+                                          .box2 {
+                                              width: 733px;
+                                              height: 724px;
+                                              border: 1px solid rgba(109, 110, 118, 1);
+                                              margin-left: 80px;
+                                              margin-top: 32px;
+                                          }
+
+                                          .img3 {
+                                              width: 669px;
+                                              height: 352px;
+                                              margin: 32px 32px 32px 32px;
+                                          }
+
+                                          .p8 {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 500;
+                                              font-size: 14px;
+                                              line-height: 20px;
+                                              color: #4C4C4C;
+                                              padding-left: 29px;
+                                          }
+
+                                          .p9 {
+                                              width: 669px;
+                                              height: 80px;
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 28px;
+                                              line-height: 40px;
+                                              letter-spacing: -1px;
+                                              color: #232536;
+                                              padding-top: 16px;
+                                              padding-left: 32px;
+                                          }
+
+                                          .p10 {
+                                              width: 551px;
+                                              height: 56px;
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+                                              color: #6D6E76;
+                                              padding-left: 32px;
+                                              padding-top: 56px;
+                                          }
+
+                                          .btn3 {
+                                              display: inline-block;
+                                              background-color: #FFD050;
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 18px;
+                                              color: black;
+                                              text-decoration: none;
+                                              padding-top: 16px;
+                                              padding-bottom: 16px;
+                                              padding-left: 48px;
+                                              padding-right: 48px;
+                                              margin-left: 32px;
+                                              margin-top: 72px;
+                                          }
+
+                                          .p11 {
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 36px;
+                                              line-height: 48px;
+                                              letter-spacing: -2px;
+                                              color: #232536;
+                                              padding-top: 140px;
+                                              margin-left: 32px;
+                                          }
+
+                                          .p12 {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+                                              color: #592EA9;
+                                              position: absolute;
+                                              width: 60px;
+                                              height: 28px;
+                                              right: 80px;
+                                              top: 939px;
+                                          }
+
+                                          .p13 {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 500;
+                                              font-size: 14px;
+                                              line-height: 20px;
+                                              color: #4C4C4C;
+                                              margin-left: 64px;
+                                              margin-top: 32px;
+                                          }
+
+                                          .p15 {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 500;
+                                              font-size: 14px;
+                                              line-height: 20px;
+                                              color: #592EA9;
+                                          }
+
+                                          .p14 {
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 24px;
+                                              line-height: 32px;
+                                              color: #232536;
+                                              width: 369px;
+                                              height: 96px;
+                                              margin-left: 64px;
+                                              margin-bottom: 57px;
+                                          }
+
+                                          #txt1 {
+                                              padding-top: 32px;
+                                          }
+
+                                          #txt2 {
+                                              background: #FBF6EA;
+                                              margin-left: 32px;
+                                              padding-top: 32px;
+                                              padding-bottom: 25px;
+                                              padding-left: 32.1px;
+                                              padding-right: 115.72;
+                                              width: 517px;
+                                              height: 181px;
+                                          }
+
+                                          .p16 {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 500;
+                                              font-size: 14px;
+                                              line-height: 20px;
+                                              color: #4C4C4C;
+                                          }
+
+                                          .p17 {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 500;
+                                              font-size: 14px;
+                                              line-height: 20px;
+                                              color: #592EA9;
+                                          }
+
+                                          .p18 {
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 24px;
+                                              line-height: 32px;
+                                              color: #232536;
+                                              width: 369px;
+                                              height: 96px;
+
+                                          }
+
+                                          /* SECTION3 */
+                                          .section3 {
+                                              display: flex;
+                                              width: 1280px;
+                                              height: 500px;
+                                              background: #F4F0F8;
+                                              margin-right: 160px;
+                                              margin-left: 160px;
+                                              margin-top: -31px;
+
+
+                                          }
+
+                                          .img4 {
+                                              margin-left: 379px;
+                                              margin-top: 120px;
+                                          }
+
+                                          .p19 {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 600;
+                                              font-size: 16px;
+                                              line-height: 20px;
+                                              letter-spacing: 3px;
+                                              text-transform: uppercase;
+                                              color: #232536;
+                                              padding-top: 89px;
+                                              padding-left: 80px;
+                                          }
+
+                                          .p20 {
+                                              width: 550px;
+                                              height: 144px;
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 36px;
+                                              line-height: 48px;
+                                              letter-spacing: -2px;
+                                              color: #232536;
+                                              padding-top: 24px;
+                                              padding-left: 80px;
+
+                                          }
+
+                                          .p21 {
+                                              width: 516px;
+                                              height: 108.73px;
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+                                              color: #6D6E76;
+                                              padding-left: 80px;
+                                              padding-top: 45px;
+
+                                          }
+
+                                          .p22 {
+
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 18px;
+                                              line-height: 32px;
+                                              padding-left: 80px;
+                                              padding-top: 16px;
+                                              display: flex;
+                                              align-items: center;
+                                              color: #592EA9;
+                                          }
+
+                                          .p23 {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 600;
+                                              font-size: 16px;
+                                              line-height: 20px;
+                                              letter-spacing: 3px;
+                                              text-transform: uppercase;
+                                              color: #232536;
+                                              padding-top: 89px;
+                                              padding-left: 70px;
+                                          }
+
+                                          .p24 {
+                                              width: 481px;
+                                              height: 80px;
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 28px;
+                                              line-height: 40px;
+                                              letter-spacing: -1px;
+                                              color: #232536;
+                                              padding-left: 70px;
+                                              padding-top: 24px;
+                                          }
+
+                                          .p25 {
+                                              width: 516px;
+                                              height: 108.73px;
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+                                              color: #6D6E76;
+                                              padding-left: 70px;
+                                              padding-top: 35px;
+
+                                          }
+
+                                          .main4 .imptxt {
+                                              margin-top: 144px;
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 36px;
+                                              line-height: 48px;
+                                              letter-spacing: -2px;
+                                              color: #232536;
+                                              text-align: center;
+                                          }
+
+                                          .section4 {
+                                              display: flex;
+
+                                          }
+
+                                          .mbox {
+                                              width: 296px;
+                                              height: 228px;
+                                              border: 1px solid grey;
+                                              padding-left: 32px;
+                                              margin-right: 25px;
+                                              margin-top: 60px;
+                                              margin-left: 60px;
+                                          }
+
+                                          .mbox .imgtop {
+                                              padding-top: 44px;
+                                          }
+
+                                          .mbox h3 {
+                                              margin-top: 16px;
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 28px;
+                                              line-height: 40px;
+                                              letter-spacing: -1px;
+                                              color: #232536;
+                                          }
+
+                                          .mbox p {
+                                              margin-top: 4px;
+                                              width: 232px;
+                                              height: 56px;
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+                                              color: #6D6E76;
+
+                                          }
+
+                                          .yellow {
+                                              background-color: #FFD050;
+                                              border: 1px solid #FFD050;
+                                          }
+
+                                          /* Section5 */
+                                          .section5 {
+                                              margin-top: 100px;
+                                              background-image: url(images/close-up-photography-of-man-wearing-sunglasses-1212984.png);
+                                              background-repeat: no-repeat;
+                                              width: 949px;
+                                              height: 705px;
+                                              margin-left: 80px;
+                                              padding-top: 28px;
+                                          }
+
+                                          .box3 {
+                                              width: 706px;
+                                              height: 584px;
+                                              background-color: white;
+                                              margin-left: 590px;
+                                              margin-top: 100px;
+                                              margin-right: 80px;
+                                          }
+
+                                          .p26 {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 600;
+                                              font-size: 16px;
+                                              line-height: 20px;
+                                              letter-spacing: 3px;
+                                              text-transform: uppercase;
+                                              color: #232536;
+                                              padding-top: 80px;
+                                              padding-left: 80px;
+                                          }
+
+                                          .p27 {
+                                              width: 610px;
+                                              height: 192px;
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 48px;
+                                              line-height: 64px;
+                                              letter-spacing: -2px;
+                                              color: #232536;
+                                              padding-top: 24px;
+                                              padding-left: 80px;
+
+                                          }
+
+                                          .p28 {
+                                              width: 546px;
+                                              height: 84px;
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+                                              padding-left: 80px;
+                                              color: #6D6E76;
+                                              padding-top: 25px;
+                                          }
+
+                                          .btn4 {
+                                              display: inline-block;
+                                              text-decoration: none;
+                                              background-color: #FFD050;
+                                              padding-left: 48px;
+                                              padding-right: 48px;
+                                              padding-top: 16px;
+                                              padding-bottom: 16px;
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 18px;
+                                              line-height: 24px;
+                                              align-items: center;
+                                              color: #232536;
+                                              margin-top: 52px;
+                                              margin-left: 80px;
+
+                                          }
+
+                                          /* =========== Section6 =============== */
+
+                                          .section6 {
+                                              display: flex;
+                                          }
+
+                                          .p29 {
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 36px;
+                                              line-height: 48px;
+                                              letter-spacing: -2px;
+                                              color: #232536;
+                                              margin-top: 128px;
+                                              text-align: center;
+                                              margin-bottom: 48px;
+
+                                          }
+
+                                          .slider {
+                                              display: flex;
+
+                                          }
+
+                                          .slider1 {
+                                              overflow: hidden;
+                                          }
+
+                                          /* section7 */
+
+                                          .box6 {
+                                              display: flex;
+                                              text-align: center;
+                                          }
+
+                                          .box7 img {
+                                              background-color: #FFFFFF;
+                                              margin-top: 108px;
+                                              margin-right: 80px;
+
+
+                                          }
+
+                                          /* section8 */
+                                          .box8 {
+                                              display: flex;
+                                              margin-top: 96px;
+                                              width: 1280px;
+                                              height: 464px;
+                                              background: #FBF6EA;
+                                              margin-left: 160px;
+                                          }
+
+                                          .box9 {
+                                              padding-left: 112px;
+                                              padding-top: 92px;
+                                          }
+
+                                          .P30 {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 600;
+                                              font-size: 16px;
+                                              line-height: 20px;
+                                              letter-spacing: 3px;
+                                              text-transform: uppercase;
+                                              color: #232536;
+                                          }
+
+                                          .P31 {
+                                              width: 345px;
+                                              height: 96px;
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 36px;
+                                              line-height: 48px;
+                                              letter-spacing: -2px;
+                                              color: #232536;
+                                              padding-top: 12px;
+                                          }
+
+                                          .p32 {
+
+                                              width: 300px;
+                                              height: 56px;
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+                                              color: #232536;
+                                              padding-top: 26px;
+                                          }
+
+                                          footer .section10 .lastlogo {
+                                              margin-left: 110px;
+                                              margin-top: 30px;
+                                          }
+
+                                          .p33 {
+
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 24px;
+                                              line-height: 32px;
+                                              color: #232536;
+                                              padding-top: 90px;
+                                              padding-right: 174px;
+                                          }
+
+                                          .pink {
+                                              background-color: rgba(251, 246, 234, 1);
+                                              display: block;
+                                              padding-left: 90px;
+                                          }
+
+                                          .p34 {
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 24px;
+                                              line-height: 32px;
+                                              color: #232536;
+                                          }
+
+                                          .p35 {
+
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+                                              color: #6D6E76;
+                                          }
+
+                                          .box10 {
+                                              display: flex;
+                                              padding-left: 150px;
+                                              padding-top: 121px;
+                                          }
+
+                                          .box11 {
+                                              padding-left: 16px;
+                                          }
+
+                                          .boy {
+                                              padding-top: -50px;
+                                          }
+
+                                          .arrow {
+                                              display: flex;
+                                              padding-bottom: 80px;
+                                          }
+
+                                          /* ================section9======================== */
+                                          .p36 {
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 36px;
+                                              line-height: 48px;
+                                              text-align: center;
+                                              letter-spacing: -2px;
+                                              color: #232536;
+                                              width: 414px;
+                                              height: 96px;
+                                              text-align: center;
+                                          }
+
+                                          .p37 {
+                                              width: 350px;
+                                              height: 56px;
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+                                              text-align: center;
+                                              color: #6D6E76;
+                                              margin-top: 16px;
+                                              margin-bottom: 32px;
+                                              margin-left: 23px;
+
+
+                                          }
+
+                                          .section9 {
+                                              margin-left: 520px;
+                                              margin-right: 520px;
+                                              margin-top: 128px;
+                                              /* text-align: center; */
+                                          }
+
+                                          .btn6 {
+                                              display: inline-block;
+                                              text-decoration: none;
+                                              color: black;
+                                              background-color: #FFD050;
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 18px;
+                                              line-height: 24px;
+                                              padding-left: 48px;
+                                              padding-right: 48px;
+                                              padding-top: 16px;
+                                              padding-bottom: 16px;
+                                              margin-left: 113px;
+                                          }
+
+                                          /* ===================Section10============ */
+                                          .section10 {
+                                              width: auto;
+                                              height: 560px;
+                                              background: #232536;
+                                              margin-top: 128px;
+                                              display: flex;
+                                          }
+
+                                          .section10 img {
+                                              margin-right: 723px;
+                                              padding-top: 25px;
+
+                                          }
+
+                                          .section10 nav ul li a {
+
+                                              text-decoration: none;
+                                              color: white;
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+
+                                          }
+
+                                          .section10 nav ul li {
+                                              list-style-type: none;
+                                              display: inline-block;
+                                              padding-right: 24px;
+                                              padding-top: 59px;
+                                          }
+
+                                          .box12 {
+                                              width: 1280px;
+                                              height: 256px;
+                                              background: #2f3148;
+                                              display: flex;
+                                              padding-top: 20px;
+                                              margin-top: -390px;
+                                              margin-left: 130px;
+                                          }
+
+                                          .p38 {
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 36px;
+                                              line-height: 48px;
+                                              width: 650px;
+                                              height: 96px;
+                                              display: flex;
+                                              align-items: center;
+                                              letter-spacing: -2px;
+                                              color: #FFFFFF;
+                                              padding-top: 114px;
+                                              padding-left: 64px;
+                                              padding-right: 64px;
+
+
+                                          }
+
+                                          .box13 {
+                                              display: flex;
+                                              padding-top: 84px;
+                                          }
+
+                                          div #email {
+                                              margin-left: 4px;
+                                              margin-top: -5px;
+                                              width: 323px;
+                                              height: 56px;
+                                              padding-top: 14px;
+                                              padding-bottom: 14px;
+                                              padding-left: 24px;
+                                              background-color: rgba(35, 37, 54, 1);
+                                              border: 1px solid rgba(76, 76, 76, 1);
+                                          }
+
+                                          .btn10 {
+                                              margin-top: -5px;
+                                              display: inline-block;
+                                              text-decoration: none;
+                                              color: black;
+                                              background-color: #FFD050;
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 18px;
+                                              line-height: 24px;
+                                              padding-left: 48px;
+                                              padding-top: 16px;
+                                              padding-right: 48px;
+                                              padding-bottom: 16px;
+                                              margin-left: 24px;
+                                          }
+
+                                          .p41 {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+                                              color: #FFFFFF;
+                                          }
+
+                                          .lastfooter {
+                                              padding-top: 48px;
+                                              padding-left: 80px;
+                                          }
+
+                                          .flastsec {
+                                              display: flex;
+                                          }
+
+                                          .lastimg img {
+
+                                              z-index: 1;
+                                          }
+
+                                          .flow {
+                                              overflow: hidden;
+                                          }
+
+                                          /* ======================================PAGEE2============================================ */
+
+
+                                          /* =====================main===================== */
+
+                                          main .blogdiv1 .blogfirsthd {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 500;
+                                              font-size: 16px;
+                                              line-height: 20px;
+                                              letter-spacing: 3px;
+                                              text-transform: uppercase;
+                                              color: #232536;
+                                              margin-top: 94px;
+                                              margin-left: 80px;
+                                          }
+
+                                          main .blogdiv1 h1 {
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 36px;
+                                              line-height: 48px;
+                                              margin-top: 20px;
+                                              letter-spacing: -2px;
+                                              margin-left: 80px;
+                                              color: #232536;
+                                              width: 624px;
+                                          }
+
+                                          main .blogdiv1 .blogdate {
+
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 500;
+                                              font-size: 14px;
+                                              line-height: 20px;
+                                              margin-left: 80px;
+                                              color: #4C4C4C;
+                                              margin-top: 16px;
+                                          }
+
+                                          main .blogdiv1 .blogname {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 500;
+                                              font-size: 14px;
+                                              line-height: 20px;
+                                              color: #592EA9;
+                                          }
+
+                                          main .blogdiv1 .blogsent {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+                                              color: #6D6E76;
+                                              width: 624px;
+                                              margin-left: 80px;
+                                              margin-top: 16px;
+                                          }
+
+                                          main .blogdiv1 .blogbutton {
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 18px;
+                                              line-height: 24px;
+                                              display: inline-block;
+                                              text-decoration: none;
+                                              color: #232536;
+                                              margin-left: 84px;
+                                              margin-top: 32px;
+                                              background-color: #FFD050;
+                                              padding-left: 48px;
+                                              padding-right: 48px;
+                                              padding-top: 16px;
+                                              padding-bottom: 16px;
+                                          }
+
+                                          .blogdiv1 {
+                                              display: flex;
+                                              height: 519px;
+                                              background: #F4F0F8;
+                                          }
+
+                                          main .blogdiv1 .blogmanimg {
+                                              margin-top: 80px;
+                                              margin-bottom: 80px;
+                                              margin-right: 80px;
+                                              margin-left: 250px;
+                                          }
+
+                                          /* ==========================Section1=============================== */
+
+                                          .blogflex {
+                                              display: flex;
+                                              margin-left: 80px;
+                                              margin-top: 64px;
+                                              margin-bottom: 64px;
+                                          }
+
+                                          .blogflex div .smhdng {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 600;
+                                              font-size: 16px;
+                                              line-height: 20px;
+                                              letter-spacing: 3px;
+                                              text-transform: uppercase;
+                                              color: #592EA9;
+                                              margin-bottom: 20px;
+                                          }
+
+                                          .blogflex div .blogbldtxt {
+                                              width: 602.89px;
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 36px;
+                                              line-height: 48px;
+                                              letter-spacing: -2px;
+                                              color: #232536;
+                                              margin-bottom: 16px;
+                                          }
+
+                                          .blogflex div .blogtxt {
+                                              width: 624px;
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+                                              color: #6D6E76;
+
+                                          }
+
+                                          .blogflex .bloginfo {
+                                              margin-left: 32px;
+                                              margin-top: 75px;
+                                          }
+
+                                          .blogmain {
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 48px;
+                                              line-height: 64px;
+                                              letter-spacing: -2px;
+                                              margin-left: 80px;
+                                              color: #232536;
+                                              margin-top: 64px;
+                                              padding-bottom: 32px;
+                                              border-bottom: 1px solid #6D6E76;
+                                              margin-right: 78px;
+                                          }
+
+                                          /* ================================Accordion============================= */
+                                          /* Styling for the accordion headers */
+                                          #accordion h3 {
+                                              background-color: black;
+                                              color: whitesmoke;
+                                              padding: 10px;
+                                              cursor: pointer;
+                                              font-size: 18px;
+                                              font-weight: bold;
+                                              border: none;
+                                              outline: none;
+                                              margin: 0;
+                                          }
+
+                                          /* Styling for the accordion content */
+                                          #accordion div {
+                                              padding: 10px;
+                                              font-size: 16px;
+                                              line-height: 1.5;
+                                              background-color: #fff;
+                                              border: 1px solid #ddd;
+                                              border-top: none;
+                                          }
+
+                                          .blognxtbtn {
+                                              margin-left: 647px;
+                                              margin-bottom: 70px;
+                                          }
+
+                                          .blogimptxt {
+                                              margin-left: 58px;
+                                              margin-top: 64px;
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 36px;
+                                              line-height: 48px;
+                                              letter-spacing: -2px;
+                                              color: #232536;
+                                          }
+
+                                          /*================ ABOUUT US==========================
+=================== MAIN ============================== */
+
+                                          .aboutusbox {
+                                              display: flex;
+
+                                          }
+
+                                          main .heroimg {
+                                              padding-top: 373px;
+                                          }
+
+                                          .aboutusbox .aboutusp {
+                                              width: 477px;
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+                                              color: #4C4C4C;
+                                              padding-top: 199px;
+                                              margin-left: 50px;
+                                          }
+
+                                          .aboutmaindiv {
+                                              margin-left: 60px;
+                                              margin-top: 80px;
+                                              background-color: white;
+                                              padding-top: 100px;
+                                              padding-bottom: 64px;
+                                              padding-left: 64px;
+                                              padding-right: 64px;
+                                              z-index: 1;
+                                          }
+
+                                          .aboutusbox .aboutmaindiv .about1 {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 500;
+                                              font-size: 16px;
+                                              line-height: 20px;
+                                              letter-spacing: 3px;
+                                              text-transform: uppercase;
+                                              color: #232536;
+                                          }
+
+                                          .aboutusbox .aboutmaindiv .about2 {
+                                              width: 496px;
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 48px;
+                                              line-height: 64px;
+                                              letter-spacing: -2px;
+                                              color: #232536;
+                                          }
+
+                                          main .impimg {
+                                              position: absolute;
+                                              width: 1280px;
+                                              height: 444px;
+                                              left: 150px;
+                                              top: 453px;
+                                          }
+
+                                          /* ===================================SECTION1 */
+
+                                          section .aboutbox1 {
+                                              margin-top: 360px;
+                                              display: flex;
+                                              width: 1280px;
+                                              height: 441px;
+                                              background: #F4F0F8;
+                                              padding-left: 120px;
+                                          }
+
+                                          .aboutbox1 .aboutsmallhdng {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 600;
+                                              font-size: 16px;
+                                              line-height: 20px;
+                                              letter-spacing: 3px;
+                                              text-transform: uppercase;
+                                              color: #232536;
+                                              padding-top: 140px;
+                                              margin-bottom: 20px;
+                                          }
+
+                                          .aboutbox1 .aboutlgtxt {
+                                              width: 450px;
+                                              margin-bottom: 16px;
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 28px;
+                                              line-height: 40px;
+                                              letter-spacing: -1px;
+                                              color: #232536;
+                                          }
+
+                                          .aboutbox1 .aboutsltxt {
+                                              width: 450px;
+                                              height: 109px;
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+                                              color: #6D6E76;
+                                          }
+
+                                          .aboutscnbox {
+                                              margin-left: 35px;
+                                          }
+
+                                          /*================================== SECTION2 */
+                                          section .aboutbox2 {
+                                              display: flex;
+                                              margin-top: 128px;
+                                          }
+
+                                          .aboutbox2 .abouttxt1 {
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 36px;
+                                              line-height: 48px;
+                                              letter-spacing: -2px;
+                                              color: #232536;
+                                              margin-bottom: 16px;
+                                              margin-top: 80px;
+                                          }
+
+                                          .aboutbox2 .abouttxt2 {
+                                              width: 519px;
+                                              height: 96px;
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 24px;
+                                              line-height: 32px;
+                                              margin-top: 16px;
+                                              margin-bottom: 16px;
+                                              color: #232536;
+
+                                          }
+
+                                          .aboutbox2 .abouttxt3 {
+                                              width: 450px;
+                                              height: 140px;
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+                                              color: #232536;
+
+                                          }
+
+                                          .aboutbox3 {
+                                              margin-left: 64px;
+                                          }
+
+                                          .aboutbox4 {
+                                              margin-bottom: 20px;
+                                          }
+
+                                          /* ==============================================CONTACT US PAGE=================================================
+===================================================SECTION1====================================== */
+                                          .cont1 {
+                                              justify-content: center;
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 900;
+                                              font-size: 16px;
+                                              line-height: 20px;
+                                              text-align: center;
+                                              letter-spacing: 3px;
+                                              text-transform: uppercase;
+                                              color: #232536;
+                                              margin-top: 128px;
+                                              margin-bottom: 12px;
+                                          }
+
+                                          .cont2 {
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 48px;
+                                              line-height: 64px;
+                                              text-align: center;
+                                              letter-spacing: -2px;
+                                              color: #232536;
+                                              margin-bottom: 24px;
+                                          }
+
+                                          .cont3 {
+                                              margin-left: 320px;
+                                              width: 650px;
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+                                              text-align: center;
+                                              color: #6D6E76;
+                                              margin-bottom: 64px;
+                                          }
+
+                                          /* ==========================================Contact us page===========================================
+==============================================section1 =========================================*/
+                                          .contactbox1 {
+                                              display: flex;
+                                              justify-content: center;
+                                              width: 768px;
+                                              height: 240px;
+                                              background: #592EA9;
+                                          }
+
+                                          /*==============================================section2 =========================================*/
+                                          .cont4 {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 14px;
+                                              line-height: 20px;
+                                              padding-top: 48px;
+                                              color: #FFFFFF;
+                                              padding-bottom: 16px;
+                                              border-bottom: 1px solid white;
+                                              opacity: 0.6;
+                                          }
+
+                                          .cont5 {
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 20px;
+                                              line-height: 32px;
+                                              color: #FFFFFF;
+                                              margin-top: 16px;
+                                          }
+
+                                          .cont6 {
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 20px;
+                                              line-height: 32px;
+                                              color: #FFFFFF;
+
+                                          }
+
+                                          .cont7 {
+                                              font-family: 'Inter';
+                                              font-style: normal;
+                                              font-weight: 400;
+                                              font-size: 16px;
+                                              line-height: 28px;
+                                              color: #FFFFFF;
+                                              opacity: 0.6;
+                                          }
+
+                                          .contactinfo {
+                                              margin-right: 150px;
+                                              margin-left: -86px;
+                                          }
+
+                                          #const8 {
+                                              margin-top: 16px;
+                                          }
+
+                                          /* form */
+                                          #signupForm label {
+                                              width: 120px;
+                                              display: inline-block;
+                                          }
+
+
+                                          #signupForm label.error {
+                                              margin-left: 10px;
+                                              width: auto;
+
+                                              display: inline;
+                                              color: red;
+                                          }
+
+                                          .contactform input {
+                                              width: 768px;
+                                              height: 65px;
+                                              margin-left: 250px;
+                                              margin-top: 25px;
+                                              font-size: 16px;
+                                              padding-left: 15px;
+                                          }
+
+                                          #mail {
+
+                                              width: 768px !important;
+                                              height: 65px !important;
+                                              font-size: 16px;
+                                          }
+
+                                          textarea {
+                                              width: 768px;
+                                              height: 144px;
+                                              margin-left: 250px;
+                                              margin-top: 25px;
+                                              font-size: 16px;
+                                              padding-left: 15px;
+                                              padding-top: 30px;
+                                          }
+
+                                          input[value="Send Message"] {
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 24px;
+                                              line-height: 32px;
+                                              background-color: #FFD050;
+                                              color: #232536;
+                                              border: 1px solid #FFD050;
+                                          }
+
+                                          .pgallery {
+                                              font-family: 'Sen';
+                                              font-style: normal;
+                                              font-weight: 700;
+                                              font-size: 24px;
+                                              line-height: 32px;
+                                              text-align: center;
+                                              margin-top: 80px;
+                                              margin-bottom: 30px;
+                                          }
+
+                                          .argonbox a {
+                                              margin-left: 100px;
+                                          }

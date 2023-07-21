@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===================================CSS============================================== -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ===================================FONTS============================================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+
+    <!-- ===================================FORM VALIDATION============================================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"> </script>
+    <script src="https://jqueryvalidation.org/files/lib/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+
+    <!-- ===================================PHOTO GALLERY============================================== -->
+    <link href="css/style.argonbox.css" rel="stylesheet">
+
+    <title>CONTACT US</title>
+</head>
+
+<body>
+
+    <!-- ===================================HEADER============================================== -->
+    <header>
+        <div>
+            <img src="images/Logo.png" alt="">
+        </div>
+
+        <div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="btn">
+            <a href="">Subscribe</a>
+
+        </div>
+
+    </header>
+
+    <!-- ============================section1======================================= -->
+    <section>
+        <div class="container">
+            <p class="cont1">CONTACT US</p>
+            <p class="cont2">Let’s Start a Conversation</p>
+            <p class="cont3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                ut labore et
+                dolore magna aliqua. Ut enim ad minim.</p>
+        </div>
+    </section>
+
+    <!-- ============================section2======================================= -->
+    <section>
+        <div class="container contactbox1">
+            <div class="contactinfo">
+                <p class="cont4">Working hours</p>
+                <p class="cont5">Monday To Friday</p>
+                <p class="cont6">9:00 AM to 8:00 PM </p>
+                <p class="cont7">Our Support Team is available 24/7</p>
+            </div>
+            <div>
+                <p class="cont4">Contact Us</p>
+                <p class="cont6" id="const8">020 7993 2905</p>
+                <p class="cont7">hello@finsweet.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================SECTION3// FORM ============================================== -->
+    <section class="contactform">
+        <div id="main ">
+
+            <form class="cmxform container" id="signupForm">
+
+                <p>
+
+                    <input id="firstname" name="firstname" type="text" placeholder="Firstname" required>
+                </p>
+                <p>
+
+                    <input id="lastname" name="lastname" type="text" placeholder="Lastname" required>
+                </p>
+                <p>
+
+                    <input id="username" name="username" type="text" placeholder="Username" required>
+                </p>
+                <p>
+
+                    <input id="password" name="password" type="password" placeholder="Password" required>
+                </p>
+                <p>
+
+                    <input id="confirm_password" name="confirm_password" type="password" placeholder="Confirm password"
+                        required">
+                </p>
+                <p>
+
+                    <input id="mail" name="email" type="email" placeholder="Email" required>
+                </p>
+                <textarea id="message" name="message" rows="5" placeholder="Message"></textarea>
+                <p class="lastbtn">
+                    <input class="submit" type="submit" value="Send Message">
+                </p>
+
+            </form>
+
+            <!-- ===================================PHOTOGALLERY============================================== -->
+            <div class="argonbox container">
+                <h3 class="pgallery">Photo Gallery of our workers</h3>
+                <a href="images/hh.png" title="Image 1"><img src="images/hh.png" alt="Image 1"></a>
+                <a href="images/couplw.png" title="Image 2"><img src="images/couplw.png" alt="Image 2"></a>
+            </div>
+
+            <!-- ===================================FOOTER============================================== -->
+            <footer>
+                <section>
+                    <div class="section10">
+                        <div>
+                            <img class="lastlogo" src="images/Logo.png" alt="">
+                        </div>
+
+                        <div>
+                            <nav>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="box12">
+                        <div>
+                            <p class="p38">Subscribe to our news letter to get latest updates and news</p>
+                        </div>
+                        <div class="box13">
+                            <div>
+
+                                <input type="email" id="email" name="email" placeholder="Enter your email">
+
+                            </div>
+                            <div>
+                                <a class="btn10" href="">Subscribe</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flastsec">
+                        <div class="lastfooter">
+                            <p class="p41">Finstreet 118 2561 Fintown</p>
+                            <p class="p41">Hello@finsweet.com 020 7993 2905</p>
+                        </div>
+                        <div class="lastimg">
+                            <img src="images/Social wrapper.png" alt="">
+                        </div>
+                    </div>
+
+                </section>
+            </footer>
+    </section>
+</body>
+
+<!-- ===================================JS FILE============================================== -->
+<script src="app.js"></script>
+
+<!-- ===================================JQUERY FOR FORM VALIDATION================================= -->
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+<!-- ===================================PHOTO GALLERY============================================== -->
+<script src="js/jquery.argonbox.js"></script>
+
+</html>
